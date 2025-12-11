@@ -9,6 +9,7 @@ package recursionexample;
 public class RecursionExercises {
 
     // Task 1: recursive factorial
+    //this task uses recursive instead of a loop based program
     public static long factorialRecursive(int n) {
         // TODO: implement Task 1
         if(n<0){
@@ -22,6 +23,7 @@ public class RecursionExercises {
     }
 
     // Task 2: iterative factorial
+    //this Task uses a loop for the method instead od recursive
     public static long factorialIterative(int n) {
         // TODO: implement Task 2
         if(n<0){
@@ -38,6 +40,7 @@ public class RecursionExercises {
     }
 
     // Task 3: recursive Fibonacci
+    //uses recursive for fibonacci sequence
     public static long fibonacciRecursive(int n) {
         // TODO: implement Task 3
         if(n<0){
@@ -54,6 +57,7 @@ public class RecursionExercises {
     }
 
     // Task 4: recursive sum of an array (use the helper below)
+    //uses the helper to sum the array by using recursive method
     public static long sumArray(int[] data) {
         // TODO: implement Task 4
         if(data==null){
